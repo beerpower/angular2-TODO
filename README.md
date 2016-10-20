@@ -7,4 +7,4 @@ Angular2 Quick start + http://blog.scottlogic.com/2015/12/07/angular-2.html
 
 3. npm start
 
-* if has a problem, delete app folder, and repeate
+* if has a problem, delete app folder, and repeat.
