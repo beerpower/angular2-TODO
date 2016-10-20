@@ -1,5 +1,6 @@
 export class TodoItem {
-  text: String;
+    text: String;
+    completed: boolean;
 }
 
 export class TodoStore {
@@ -11,7 +12,8 @@ export class TodoStore {
 
   addItem(newItem: String) {
     this.items.push({
-      text: newItem
+        text: newItem
+        completed: false;
     });
   }
 

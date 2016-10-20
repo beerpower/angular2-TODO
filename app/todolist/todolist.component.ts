@@ -11,6 +11,7 @@ import { TodoItem } from './../todoitem/todoitem.component';
 export class ToDoComponent {
     newItem = '';
 
+
     store: TodoStore;
 
     constructor(store: TodoStore) {
